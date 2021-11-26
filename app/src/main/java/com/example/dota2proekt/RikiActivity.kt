@@ -5,15 +5,15 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 
-class InfActivity2 : AppCompatActivity() {
+class RikiActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_inf2)
+        setContentView(R.layout.activity_riki)
     }
 
-    fun next(view: View)
+    fun Back(view: View)
     {
-        val intent = Intent( this@InfActivity2, MenuActivity::class.java)
+        val intent = Intent( this@RikiActivity, MenuActivity::class.java)
         startActivity(intent)
         finish()
     }
