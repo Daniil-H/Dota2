@@ -41,4 +41,11 @@ class MenuActivity : AppCompatActivity() {
         startActivity(intent)
         finish()
     }
+
+    fun Radiance(view: View)
+    {
+        val intent = Intent( this@MenuActivity, RadianceActivity::class.java)
+        startActivity(intent)
+        finish()
+    }
 }
